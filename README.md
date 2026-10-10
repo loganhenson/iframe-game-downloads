@@ -29,8 +29,8 @@ Enter opens the command console. /reset starts your player over at spawn.
 Explore the rolling meadow around the spawn crossroads, with oaks, pines, pink
 blossom trees, mossy rocks, flowers, wind and drifting petals. Characters and
 companions follow the hills; the paths and stadium stay level.
-Joined stone paving connects the circular spawn plaza to the gate, with rounded
-junctions and a fitted entrance landing.
+Continuous dirt trails connect the spawn clearing to the gate, with subtle soil
+variation, softly worn grass edges and a tapered entrance approach.
 
 Walk to the signed **MEADOW HIGH** entrance near spawn and click **Sign up to
 race**. At a server minute boundary, two to seven signed-up players begin a
