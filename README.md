@@ -22,15 +22,17 @@ The server PC must be running the game server on the same local network. The
 client discovers it automatically. GitHub delivers updates; game connections
 and the persistent world stay on your LAN and server PC.
 
-WASD or both mouse buttons move, Shift sprints, RMB orbits, and the wheel zooms.
+WASD moves; hold Shift or right-click to dash into sprint. Mouse looks; wheel zooms.
+Hold Alt or press Esc to release the cursor for UI. Close the window to quit.
 Enter opens the command console. /reset starts your player over at spawn.
 /unstuck returns safely to spawn while keeping your companion and progress.
 
 Explore the rolling meadow around the spawn crossroads, with oaks, pines, pink
 blossom trees, mossy rocks, flowers, wind and drifting petals. Characters and
 companions follow the hills; the paths and stadium stay level.
-Continuous dirt trails connect the spawn clearing to the gate, with subtle soil
-variation, softly worn grass edges and a tapered entrance approach.
+Connected asphalt roads lead to the gate and a house with an open garage. A shared
+four-seat hatchback waits on its driveway. E enters/exits when stopped; the driver
+uses W/S to drive, A/D to steer and Space to brake. Parking survives server restarts.
 
 Walk to the signed **MEADOW HIGH** entrance near spawn and click **Sign up to
 race**. At a server minute boundary, two to seven signed-up players begin a
