@@ -23,7 +23,8 @@ client discovers it automatically. GitHub delivers updates; game connections
 and the persistent world stay on your LAN and server PC.
 
 WASD moves; hold Shift or right-click to dash into sprint. Mouse looks; wheel zooms.
-Hold Alt or press Esc to release the cursor for UI. Close the window to quit.
+Click the world to play. Hold Alt or press Esc to free the cursor for UI.
+Alt-Tab releases the cursor; click the world to resume. Close the window to quit.
 Enter opens the command console. /reset starts your player over at spawn.
 /unstuck returns safely to spawn while keeping your companion and progress.
 
