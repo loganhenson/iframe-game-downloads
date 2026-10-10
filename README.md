@@ -24,6 +24,11 @@ and the persistent world stay on your LAN and server PC.
 
 WASD or both mouse buttons move, Shift sprints, RMB orbits, and the wheel zooms.
 Enter opens the command console. /reset starts your player over at spawn.
+/unstuck returns safely to spawn while keeping your companion and progress.
+
+Explore the rolling meadow around the spawn crossroads, with oaks, pines, pink
+blossom trees, mossy rocks, flowers, wind and drifting petals. Characters and
+companions follow the hills; the paths and stadium stay level.
 
 Walk to the signed **MEADOW HIGH** entrance near spawn and click **Sign up to
 race**. At a server minute boundary, two to seven signed-up players begin a
