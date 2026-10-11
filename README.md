@@ -1,4 +1,4 @@
-# IFrame Meadow â€” downloads
+# IFrame Meadow Ã¢â‚¬â€ downloads
 
 **Game source is private. This public repository distributes Windows builds only.**
 
@@ -22,7 +22,11 @@ The server PC must be running the game server on the same local network. The
 client discovers it automatically. GitHub delivers updates; game connections
 and the persistent world stay on your LAN and server PC.
 
-WASD moves; hold Shift or right-click to dash into sprint. Mouse looks; wheel zooms.
+Client and server versions must match. Rebuilding a development server requires
+publishing its matching client update; the launcher installs published releases.
+If the game reports a version mismatch, close it and use Update and Play again.
+
+WASD moves; hold Shift or right-click to sprint. Mouse looks; wheel zooms.
 Click the world to play. Hold Alt or press Esc to free the cursor for UI.
 Alt-Tab releases the cursor; click the world to resume. Close the window to quit.
 Enter opens the command console. /reset starts your player over at spawn.
@@ -31,9 +35,13 @@ Enter opens the command console. /reset starts your player over at spawn.
 Explore the rolling meadow around the spawn crossroads, with oaks, pines, pink
 blossom trees, mossy rocks, flowers, wind and drifting petals. Characters and
 companions follow the hills; the paths and stadium stay level.
-Connected asphalt roads lead to the gate and a house with an open garage. A shared
-four-seat hatchback waits on its driveway. E enters/exits when stopped; the driver
-uses W/S to drive, A/D to steer and Space to brake. Parking survives server restarts.
+The residential house sits across the avenue from the school, reached by connected
+roads, sidewalks and crossings. Its furnished interior has two bedrooms, a kitchen,
+living room and cat tree. E opens/closes the door and interacts with beds; Space
+wakes you. Claimed kittens explore the house, nap and play with the shared yarn ball.
+A four-seat hatchback waits on the garage driveway. E enters when stopped; the
+driver uses W/S to drive, A/D to steer and Ctrl to brake. Space gets out. Parking
+survives server restarts.
 
 Walk to the signed **MEADOW HIGH** entrance near spawn and click **Sign up to
 race**. At a server minute boundary, two to seven signed-up players begin a
@@ -43,10 +51,10 @@ the winner celebrates, and participants return to the entrance after five second
 
 ## Files in each release
 
-- **iframe-launcher-windows-x64.zip** â€” recommended one-time download; updates on relaunch.
-- **iframe-client-windows-x64.zip** â€” full standalone client for manual/offline installation.
-- **update.json** â€” the version and package checksum used by the launcher.
-- **SHA256SUMS.txt** â€” package checksums for manual verification.
+- **iframe-launcher-windows-x64.zip** Ã¢â‚¬â€ recommended one-time download; updates on relaunch.
+- **iframe-client-windows-x64.zip** Ã¢â‚¬â€ full standalone client for manual/offline installation.
+- **update.json** Ã¢â‚¬â€ the version and package checksum used by the launcher.
+- **SHA256SUMS.txt** Ã¢â‚¬â€ package checksums for manual verification.
 
 Download the launcher asset, rather than GitHub's automatically generated
 Source code ZIP. That source ZIP contains this downloads README, not the game.
