@@ -1,65 +1,36 @@
-# IFrame Meadow â€” downloads
+﻿# IFrame - Windows LAN launcher
 
-**Game source is private. This public repository distributes Windows builds only.**
+**Game source is private. This public repository distributes the launcher.**
 
-## Install on another PC
+1. [Download the latest launcher](https://github.com/loganhenson/iframe-game-downloads/releases/latest/download/iframe-launcher-windows-x64.zip).
+2. Extract the entire folder, replacing your old extracted launcher folder.
+3. Run **Update and Play.cmd**, or make a desktop shortcut to it.
 
-1. [Download the automatic launcher](https://github.com/loganhenson/iframe-game-downloads/releases/latest/download/iframe-launcher-windows-x64.zip).
-2. Extract the entire ZIP and keep the extracted folder.
-3. Double-click **Update and Play.cmd**, or create a desktop shortcut to it.
+Keep the game server running on the same local network. The launcher gets the
+server's exact game build directly from that PC. No GitHub account, Rust or
+separate installer is needed. A progress window remains visible during startup.
 
-The launcher prefers the LAN server's exact client on every relaunch. GitHub
-provides the first download or fallback when no LAN update server is available.
-Close the game and use the launcher again to update. No GitHub sign-in, Rust,
-Node or separate installer is required.
+The first install downloads the full game. Later updates reuse verified files
+and transfer only changed files. Close the game and run the launcher to update.
+Failed updates leave the working installation intact. It keeps current and
+previous versions; older inactive versions are removed.
 
-Your player identity and companion survive updates. Downloads are checked with
-SHA-256 before installation. If GitHub is unavailable, the launcher uses the last
-working client. It keeps the current and previous versions for recovery.
+Your player identity and kitten survive replacing the launcher and updating the
+game. They are separate from the installation under `%LOCALAPPDATA%\IFrameGame`.
+The world stays on the server PC. This launcher uses the `lan-client` cache and
+requires the LAN server; it does not fall back to an unrelated public game build.
 
-## Play on the LAN
+The server host uses UDP 33330/33331 for play/discovery and TCP 33332 for updates.
+No internet port forwarding is needed. Local game changes do not require another
+GitHub release: the server supplies matching builds on relaunch.
 
-The server PC must be running the game server on the same local network. The
-client discovers it automatically. GitHub delivers updates; game connections
-and the persistent world stay on your LAN and server PC.
+Download the launcher asset, **not** GitHub's generated Source code ZIP, which
+contains only this download documentation. Older full-client releases are historical.
 
-Server startup prepares and serves its matching client package. Local server
-changes update players on relaunch without another GitHub release, including
-model/client changes that keep the same protocol. An older launcher can stay:
-after its first updater-aware public client download, that client checks the
-server before opening the game. Its separate LAN cache prevents downgrades.
-The host allows TCP 33332 for updates beside UDP 33330/33331 for gameplay.
+## Controls
 
-WASD moves; hold Shift or right-click to sprint. Mouse looks; wheel zooms.
-Click the world to play. Hold Alt or press Esc to free the cursor for UI.
-Alt-Tab releases the cursor; click the world to resume. Close the window to quit.
-Enter opens the command console. /reset starts your player over at spawn.
-/unstuck returns safely to spawn while keeping your companion and progress.
-
-Explore our anime-style Tyler/Rolling Acres neighborhood, enter the primary house
-and decorate it with 150 distinct furniture/items. B toggles the picture catalogue;
-its arrows or mouse wheel browse eight previews per page without categories.
-Hold Left Alt for a free cursor. E interacts with doors/beds, and Space wakes you.
-Claimed kittens explore the house, nap and play with the shared yarn ball.
-A four-seat hatchback waits on the garage driveway. E enters when stopped; the
-driver uses W/S to drive, A/D to steer and Ctrl to brake. Space gets out. Parking
-survives server restarts.
-
-Walk to the signed **MEADOW HIGH** entrance near spawn and click **Sign up to
-race**. At a server minute boundary, two to seven signed-up players begin a
-one-lap race. Hold W or both mouse buttons to run your assigned lane; Shift
-sprints. /race leave or Pull out cancels. Kittens cheer from the bleachers,
-the winner celebrates, and participants return to the entrance after five seconds.
-
-## Files in each release
-
-- **iframe-launcher-windows-x64.zip** â€” recommended one-time download; updates on relaunch.
-- **iframe-client-windows-x64.zip** â€” full standalone client for manual/offline installation.
-- **update.json** â€” the version and package checksum used by the launcher.
-- **SHA256SUMS.txt** â€” package checksums for manual verification.
-
-Download the launcher asset, rather than GitHub's automatically generated
-Source code ZIP. That source ZIP contains this downloads README, not the game.
-The game source and Vox Studio assets are maintained in a separate private repo.
-
-[Latest release](https://github.com/loganhenson/iframe-game-downloads/releases/latest)
+WASD moves. Shift/right-click dodges, then hold to sprint. Mouse looks; wheel zooms.
+Hold Left Alt for the cursor. E interacts; Space exits beds and cars. B decorates.
+Enter opens the console: type `/` and part of a command for a short typeahead list.
+Tab or arrow keys browse matches; Enter runs the command. `/unstuck` returns safely
+to spawn while keeping your kitten. K toggles admin flight.
